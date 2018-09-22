@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hao'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.8.5'
+    compile 'org.bouncycastle:bcprov-jdk16:1.46'
+    compile 'org.jooq:jool:0.9.14'
+
+    testCompile 'junit:junit:4.12'
+}
